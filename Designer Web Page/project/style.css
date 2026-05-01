@@ -17,6 +17,10 @@ body {
     background-color: lightgray;
 }
 
+body.no-scroll {
+    overflow: hidden;
+}
+
 button {
     border: none;
     font-size: 18px;

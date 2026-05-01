@@ -30,12 +30,14 @@ function burgerClick() {
     header.style.transform = "translateX(0)";
     overlay.style.visibility = "visible";
     burger.style.visibility = "hidden";
+    document.body.classList.add("no-scroll");
 }
 
 function overlayClick() {
     header.style.transform = "translateX(100%)";
     overlay.style.visibility = "hidden";
     burger.style.visibility = "visible";
+    document.body.classList.remove("no-scroll");
 }
 
 function resizeWindow() {

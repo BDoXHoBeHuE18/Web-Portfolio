@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="overlay" onfocus="overlayClick()" onclick="overlayClick()" id="overlay"></div>
+    <div class="wrapper">
+        <button class="burger" onclick="burgerClick()" id="burger">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+        </button>
+        <header class="header" id="header">
+            <div class="header__cross" onclick="overlayClick()">
+                <div class="header__cross--line"></div>
+                <div class="header__cross--line"></div>
+            </div>
+            <div class="header__left">
+                hanaemily@gmail.com
+            </div>
+            <nav class="header__right">
+                <ul class="header__right--list">
+                    <li class="header__right--item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="header__right--item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="header__right--item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="header__right--item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="main__designer-card">
+                <div class="main__designer-card--top">
+                    <img class="main__designer-photo" src="images/profile.png" alt="Profile">
+                    </img>
+                    <div class="main__designer-card--hello">
+                        Hi! I’m Emily ✌🏻
+                    </div>
+                </div>
+                <div class="main__designer-card--description description--short">
+                    UI/UX Designer based in Moscow, Russia
+                </div>
+                <div class="main__designer-card--description description--long">
+                    I specialize in creating intuitive user experiences and visually appealing interfaces, with a focus
+                    on user-centered design.
+                </div>
+                <div class="main__designer-card--button-panel">
+                    <button class="main__designer-card--left-button">
+                        Hire Me
+                    </button>
+                    <a href="#" class="main__designer-card--right-button">
+                        Download CV
+                    </a>
+                </div>
+            </section>
+            <section class="main__services-info">
+                <div class="main__services-info--left">
+                    <div class="services__item">
+                        <div class="services__item--circle">
+                            <img src="images/svg/monitor.svg" alt="">
+                        </div>
+                        <div class="services__item--description">
+                            <div class="services__item--description-short">
+                                Responsive Web Design
+                            </div>
+                            <div class="services__item--description-long">
+                                Design adaptable websites for all devices.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item--circle">
+                            <img src="images/svg/mobile.svg" alt="Mobile Design">
+                        </div>
+                        <div class="services__item--description">
+                            <div class="services__item--description-short">
+                                Mobile App Design
+                            </div>
+                            <div class="services__item--description-long">
+                                Craft intuitive mobile apps for a seamless user experience
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item--circle">
+                            <img src="images/svg/chart.svg" alt="Dashboard Design">
+                        </div>
+                        <div class="services__item--description">
+                            <div class="services__item--description-short">
+                                Dashboard Design
+                            </div>
+                            <div class="services__item--description-long">
+                                Create intuitive dashboards for data insights.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__services-info--right">
+                    <div class="services-right__top">
+                        <div class="services-right__top--top">
+                            Services
+                        </div>
+                        <div class="services-right__top--bottom">
+                            My Awesome Service
+                        </div>
+                    </div>
+                    <div class="services-right__mid">
+                        <span>I provide services that enhance your digital presence. From responsive web design, complex
+                            dashboards to intuitive mobile apps.
+                            <br><br>
+                            Turn your ideas into reality with limitless creativity.
+                        </span>
+                    </div>
+                    <div class="services-right__bottom">
+                        <div class="services-right__bottom--stats">
+                            <div class="services-stats__top">15+</div>
+                            <div class="services-stats__bottom">Project complete</div>
+                        </div>
+                        <div class="services-right__bottom--stats">
+                            <div class="services-stats__top">2+</div>
+                            <div class="services-stats__bottom">Year experience</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__education">
+                <div class="main__education--title">
+                    <div class="main__education--title-top">
+                        Education
+                    </div>
+                    <div class="main__education--title-bottom">
+                        My Education
+                    </div>
+                </div>
+                <ul class="education__list">
+                    <li class="education__list--item">
+                        <div class="education__list--place">
+                            <div class="education__place--name">
+                                Novosibirsk State University (NSU)
+                            </div>
+                            <div class="education__place--period">
+                                4 years (2019-2022)
+                            </div>
+                        </div>
+                        <div class="education__list--description">
+                            <div class="education__description--short">
+                                Creative Arts and Design
+                            </div>
+                            <div class="education__description--long">
+                                Studying Creative Arts and Design encourages innovative thinking and equips students
+                                with the skills to create impactful visual stories.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="education__list--item">
+                        <div class="education__list--place">
+                            <div class="education__place--name">
+                                Oxim Studio Intership
+                            </div>
+                            <div class="education__place--period">
+                                3 Months (2021)
+                            </div>
+                        </div>
+                        <div class="education__list--description">
+                            <div class="education__description--short">
+                                Web Designer
+                            </div>
+                            <div class="education__description--long">
+                                Embarking on the role of a Web Designer through an internship is an exciting step in my
+                                professional journey.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="education__list--item">
+                        <div class="education__list--place">
+                            <div class="education__place--name">
+                                Freelancer
+                            </div>
+                            <div class="education__place--period">
+                                (Now)
+                            </div>
+                        </div>
+                        <div class="education__list--description">
+                            <div class="education__description--short">
+                                UI/UX Designer
+                            </div>
+                            <div class="education__description--long">
+                                I am eager to tackle real-world projects, utilize industry-standard tools, and gain
+                                valuable feedback to enhance my design skills.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="main__portfolio">
+                <div class="main__portfolio--title">
+                    <div class="portfolio__title--left">
+                        <div class="portfolio__title--left-top">
+                            Portfolio
+                        </div>
+                        <div class="portfolio__title--left-bottom">
+                            Let's have a look at my portfolio
+                        </div>
+                    </div>
+                    <div class="portfolio__title--right">
+                        <a href="#">See All</a>
+                    </div>
+                </div>
+                <div class="portfolio__arrows--container">
+                    <button class="portfolio__links--arrow arrow-right" id="right-arrow"
+                        onclick="scrollPortfolio(true)">
+                        <img src="images/arrow-right.png" alt="Arrow Right">
+                    </button>
+                    <button class="portfolio__links--arrow arrow-left" id="left-arrow" onclick="scrollPortfolio(false)">
+                        <img src="images/arrow-right.png" alt="Arrow Right">
+                    </button>
+                </div>
+                <div class="portfolio__links--container" id="portfolio__scroll">
+                    <a href="#" class="portfolio__links--item">
+                        <div class="portfolio__item--image">
+                            <img src="images/illustration.jpg" alt="Illustration Design">
+                        </div>
+                        <div class="portfolio__item--bottom">
+                            <div class="portfolio__item--author dribbble-icon">
+                                Hanaemily
+                            </div>
+                            <div class="portfolio__item--description">
+                                Illustration Design Concept
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio__links--item">
+                        <div class="portfolio__item--image">
+                            <img src="images/earthquake.jpg" alt="Earthquake UI">
+                        </div>
+                        <div class="portfolio__item--bottom">
+                            <div class="portfolio__item--author dribbble-icon">
+                                Hanaemily
+                            </div>
+                            <div class="portfolio__item--description">
+                                Earthquake UI App Redesign
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio__links--item">
+                        <div class="portfolio__item--image">
+                            <img src="images/monitoring.jpg" alt="Company Data Monitoring">
+                        </div>
+                        <div class="portfolio__item--bottom">
+                            <div class="portfolio__item--author github-icon">
+                                Hanaemily
+                            </div>
+                            <div class="portfolio__item--description">
+                                Company Data Monitoring App
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio__links--item">
+                        <div class="portfolio__item--image">
+                            <img src="images/monitoring.jpg" alt="Company Data Monitoring">
+                        </div>
+                        <div class="portfolio__item--bottom">
+                            <div class="portfolio__item--author dribbble-icon">
+                                Hanaemily
+                            </div>
+                            <div class="portfolio__item--description">
+                                Company Data Monitoring App
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__container--top">
+                    <div class="footer__container--top-top">
+                        Have an idea?
+                    </div>
+                    <div class="footer__container--top-bottom">
+                        Let’s talk about it
+                    </div>
+                </div>
+                <div class="footer__container--bottom">
+                    <div class="footer__container--bottom-left">
+                        <div class="footer__container--bottom-left-top">
+                            hanaemily@gmail.com
+                        </div>
+                        <div class="footer__container--bottom-left-bottom">
+                            Tverskaya Ulitsa, 7<br>
+                            Moscow, 125009. Russia
+                        </div>
+                    </div>
+                    <div class="footer__container--bottom-right">
+                        <div class="footer__link--container">
+                            <a class="footer__link--item" href="#">LinkedIn</a>
+                        </div>
+                        <div class="footer__link--container">
+                            <a class="footer__link--item" href="#">Instagram</a>
+                        </div>
+                        <div class="footer__link--container">
+                            <a class="footer__link--item" href="#">Dribbble</a>
+                        </div>
+                        <div class="footer__link--container">
+                            <a class="footer__link--item" href="#">Github</a>
+                        </div>
+                        <div class="footer__link--container">
+                            <a class="footer__link--item" href="#">Pinterest</a>
+                        </div>
+                        <div class="footer__link--container">
+                            <a class="footer__link--item" href="#">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

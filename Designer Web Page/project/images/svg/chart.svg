@@ -1,0 +1,8 @@
+<svg viewBox="0 0 17.5 17.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.500000" height="17.500000" fill="none" customFrame="#000000">
+	<g id="chart">
+		<path id="Rectangle 1326" d="M13.95 0.75C15.4964 0.75 16.75 2.0036 16.75 3.55L16.75 13.95C16.75 15.4964 15.4964 16.75 13.95 16.75L3.55 16.75C2.0036 16.75 0.75 15.4964 0.75 13.95L0.75 3.55C0.75 2.0036 2.0036 0.75 3.55 0.75L13.95 0.75Z" fill-rule="nonzero" stroke="rgb(255,255,255)" stroke-width="1.500000" />
+		<path id="Vector 503" d="M0 0L5 0" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-width="1.500000" transform="matrix(4.37114e-08,1,-1,4.37114e-08,5.75,8.75)" />
+		<path id="Vector 504" d="M0 0L3 0" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-width="1.500000" transform="matrix(2.91409e-08,1,-1,6.5567e-08,8.75,10.75)" />
+		<path id="Vector 505" d="M0 0L7 0" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-width="1.500000" transform="matrix(4.37114e-08,1,-1,4.37114e-08,11.75,6.75)" />
+	</g>
+</svg>

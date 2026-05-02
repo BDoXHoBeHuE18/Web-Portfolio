@@ -14,8 +14,12 @@ This is my Web Portfolio repository.
       <th>Preview</th>
     </tr>
   <tr>
-    <td>📂<a href="./Designer Web Page">Designer Web Page</a></td>
+    <td align="center">📂<a href="./Designer Web Page">Designer Web Page</a></td>
     <td><img src="./videos/designer_web_page.gif" width="600" align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">Coming soon...</td>
+    <td height=450 align="center">Coming soon...</td>
   </tr>
 </table>
 

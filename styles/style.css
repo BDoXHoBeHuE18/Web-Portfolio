@@ -23,9 +23,11 @@
   font-weight: bold;
   padding: 1rem;
 }
-.wrapper .portfolio .portfolio__card a {
+.wrapper .portfolio .portfolio__card--link-container {
   display: flex;
   justify-content: right;
+}
+.wrapper .portfolio .portfolio__card--link-container a {
   padding: 1rem;
   color: dimgray;
   text-decoration: underline;

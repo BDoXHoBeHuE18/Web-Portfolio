@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Nerko One";
+  src: local('Nerko One.woff2') format("woff2"),
+    local('Nerko One.woff') format("woff"),
+    local('Nerko One.eot') format("eot"),
+    url("../fonts/Nerko One/NerkoOne-Regular.woff2") format("woff2"),
+    url("../fonts/Nerko One/NerkoOne-Regular.woff") format("woff"),
+    url("../fonts/Nerko One/NerkoOne-Regular.eot") format("eot");
+  font-weight: normal;
+}

@@ -1,37 +1,65 @@
 @import 'reset.css';
+@import 'fonts.css';
+:root {
+  --first-color: #98b492;
+  --second-color: #0f2d4f;
+}
+
 * {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Nerko One", sans-serif;
 }
 
 .wrapper {
-  min-width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100dvh;
+  background-color: var(--first-color);
+  color: var(--second-color);
+}
+.wrapper header {
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.wrapper .portfolio__list {
+  width: 80%;
+  margin-top: 3rem;
   display: flex;
+  justify-self: center;
   justify-content: center;
-  background-color: white;
-  color: black;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
 }
-.wrapper .portfolio legend {
-  font-size: 3rem;
-  font-weight: bold;
-  padding-bottom: 5rem;
+.wrapper .portfolio__list--card {
+  max-width: 50%;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.wrapper .portfolio .portfolio__card {
-  box-shadow: 0px 0px 10px 5px black;
-  border-radius: 3px;
+.wrapper .portfolio__list--card .portfolio__card--video-container {
+  justify-self: center;
+  margin: 3rem 3rem 0 3rem;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px 2px black;
 }
-.wrapper .portfolio .portfolio__card label {
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 1rem;
+.wrapper .portfolio__list--card .portfolio__card--video {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  position: relative;
 }
-.wrapper .portfolio .portfolio__card--link-container {
-  display: flex;
-  justify-content: right;
-}
-.wrapper .portfolio .portfolio__card--link-container a {
-  padding: 1rem;
-  color: dimgray;
+.wrapper .portfolio__list--card .portfolio__card--description {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  text-align: center;
   text-decoration: underline;
-  font-size: 1rem;
+}
+.wrapper .portfolio__list--card {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px 2px black;
+}
+.wrapper .portfolio__list--card:hover {
+  transform: scale(1.05);
 }/*# sourceMappingURL=style.css.map */

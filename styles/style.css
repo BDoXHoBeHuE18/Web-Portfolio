@@ -22,7 +22,7 @@
   font-weight: bold;
 }
 .wrapper .portfolio__list {
-  width: 80%;
+  width: 50%;
   margin-top: 3rem;
   display: flex;
   justify-self: center;
@@ -32,14 +32,14 @@
   align-items: center;
 }
 .wrapper .portfolio__list--card {
-  max-width: 50%;
+  max-width: 100%;
   height: -moz-fit-content;
   height: fit-content;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .wrapper .portfolio__list--card .portfolio__card--video-container {
   justify-self: center;
-  margin: 3rem 3rem 0 3rem;
+  margin: 1rem 1rem 0 1rem;
   position: relative;
   border-radius: 0.5rem;
   box-shadow: 0px 0px 10px 2px black;
@@ -52,7 +52,7 @@
 }
 .wrapper .portfolio__list--card .portfolio__card--description {
   font-size: 1.5rem;
-  padding: 1rem 0;
+  padding: 1rem;
   text-align: center;
   text-decoration: underline;
 }

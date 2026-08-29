@@ -2,8 +2,9 @@
 @import 'fonts.css';
 
 :root {
-    --first-color: #98b492;
-    --second-color: #0f2d4f;
+    --card-color: #0B1220;
+    --text-color: #E7ECF5;
+    --back-color: #141C30;
 }
 
 * {
@@ -13,19 +14,22 @@
 .wrapper {
     width: 100%;
     min-height: 100dvh;
-    background-color: var(--first-color);
-    color: var(--second-color);
+    background-color: var(--back-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
     header {
         max-width: 1440px;
-        font-size: clamp(1rem, 7vw, 2.5rem);
-        text-align: center;
+        font-size: clamp(1rem, 7vw, 5rem);
         font-weight: bold;
+        padding-top: 1rem;
     }
 
     .portfolio__list {
-        max-width: 100%;
-        margin: 3rem clamp(1rem, 12vw, 15rem);
+        margin-top: 2rem;
+        max-width: 720px;
         display: flex;
         justify-self: center;
         justify-content: center;
@@ -34,8 +38,9 @@
         align-items: center;
 
         &--card {
-            max-width: 100%;
-            height: fit-content;
+            width: 100%;
+
+            background-color: var(--card-color);
 
             transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
@@ -44,7 +49,7 @@
                 margin: 1rem 1rem 0 1rem;
 
                 border-radius: .5rem;
-                box-shadow: 0px 0px 10px 2px black;
+                border: 2px solid var(--text-color);
             }
 
             .portfolio__card--video {
@@ -54,23 +59,62 @@
             }
 
             .portfolio__card--description {
-                font-size: clamp(.5rem, 7vw, 1.5rem);
-                padding: 1rem;
-                text-align: center;
-                text-decoration: underline;
+                font-size: clamp(.5rem, 7vw, 2.5rem);
+                padding-left: 1rem;
+                padding-top: 1rem;
+                padding-bottom: .5rem;
+            }
+
+            .portfolio__card--subdescription {
+                font-size: clamp(.5rem, 7vw, 1rem);
+                padding-left: 1rem;
+                padding-bottom: 1rem;
+                font-weight: lighter;
             }
 
             border-radius: .5rem;
-            box-shadow: 0px 0px 10px 2px black;
+            border: 2px solid var(--text-color);
         }
 
         &--card:hover {
-            transform: scale(1.01);
+            opacity: .5;
         }
 
 
-        li:last-child  {
+        &>li:last-child {
             margin-bottom: 5rem;
         }
+    }
+}
+
+.portfolio__card--stack-list {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+
+    .stack-item {
+        border: 2px solid var(--text-color);
+        padding: .25rem .5rem .25rem .5rem;
+        text-align: center;
+        border-radius: 8px;
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .html {
+        background-color: #e24c36;
+        color: #EBEBEB;
+    }
+
+    .scss {
+        background-color: #cc6699;
+        color: #003366;
+    }
+
+    .javascript {
+        background-color: #F0DB4F;
+        color: #323330
     }
 }

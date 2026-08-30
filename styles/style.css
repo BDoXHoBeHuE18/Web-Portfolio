@@ -108,6 +108,15 @@
 .portfolio__card--stack-list .javascript {
   background-color: #F0DB4F;
 }
+.portfolio__card--stack-list .typescript {
+  background-color: #3178C6;
+}
+.portfolio__card--stack-list .react-native {
+  background-color: #0081A3;
+}
+.portfolio__card--stack-list .expo {
+  background-color: #5f978f;
+}
 
 .container {
   max-width: 1440px;

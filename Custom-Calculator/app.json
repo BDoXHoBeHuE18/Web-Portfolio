@@ -44,7 +44,7 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true,
-      "baseUrl": "/Web-Portfolio/Custom Calculator/dist"
+      "baseUrl": "/Web-Portfolio/Custom-Calculator/dist"
     },
     "extra": {
       "router": {},

@@ -23,8 +23,9 @@
       "package": "com.sleepyafterrain.calcapp"
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router",
@@ -43,8 +44,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true,
-      "baseUrl": "/Web-Portfolio/Custom-Calculator/dist"
+      "reactCompiler": true
     },
     "extra": {
       "router": {},

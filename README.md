@@ -18,7 +18,7 @@ This is my Web Portfolio repository.
     <td><img src="./videos/designer_web_page.gif" width="600"></td>
   </tr>
   <tr>
-    <td>📂<a href="./Custom Calculator">Custom Calculator</a></td>
+    <td>📂<a href="./Custom-Calculator">Custom Calculator</a></td>
     <td><img src="./videos/custom_calculator.gif" width="600" align="center"></td>
   </tr>
   <tr>

@@ -80,6 +80,7 @@
                 font-size: clamp(.5rem, 7vw, 1rem);
                 margin-bottom: 1rem;
                 font-weight: lighter;
+                opacity: .7;
             }
 
             .portfolio__card--bottom-container {
@@ -91,7 +92,7 @@
 
             .portfolio__card--category {
                 font-size: clamp(.9rem, 3vw, 1rem);
-                opacity: .8;
+                opacity: .5;
                 text-align: right;
             }
         }

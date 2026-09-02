@@ -30,7 +30,7 @@
     }
 
     .portfolio__list {
-        margin-top: 2rem;
+        padding-top: 2rem;
         display: flex;
         justify-self: center;
         justify-content: center;
@@ -72,13 +72,13 @@
 
             .portfolio__card--name {
                 font-size: clamp(.5rem, 7vw, 2.5rem);
-                margin-top: 1rem;
+                padding-top: 1rem;
                 padding-bottom: .5rem;
             }
 
             .portfolio__card--description {
                 font-size: clamp(.5rem, 7vw, 1rem);
-                margin-bottom: 1rem;
+                padding-bottom: 1rem;
                 font-weight: lighter;
                 opacity: .7;
             }
@@ -107,7 +107,7 @@
 
 
         &>li:last-child {
-            margin-bottom: 5rem;
+            padding-bottom: 5rem;
         }
     }
 }

@@ -24,7 +24,7 @@
 .wrapper header {
   width: 100%;
   text-align: center;
-  font-size: clamp(2.5rem, 7vw, 7rem);
+  font-size: clamp(2.5rem, 4vw, 7rem);
   font-weight: bold;
   padding-top: 1rem;
 }
@@ -68,12 +68,12 @@
   border-radius: inherit;
 }
 .wrapper .portfolio__list--card .portfolio__card--name {
-  font-size: clamp(0.5rem, 5vw, 2.5rem);
+  font-size: clamp(1rem, 4vw, 2.5rem);
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
 .wrapper .portfolio__list--card .portfolio__card--description {
-  font-size: clamp(0.25rem, 5vw, 0.8rem);
+  font-size: clamp(0.5rem, 4vw, 1rem);
   padding-bottom: 1rem;
   font-weight: lighter;
   opacity: 0.7;
@@ -85,7 +85,7 @@
   gap: 0.5rem;
 }
 .wrapper .portfolio__list--card .portfolio__card--category {
-  font-size: clamp(0.5rem, 5vw, 1rem);
+  font-size: clamp(0.5rem, 4vw, 1rem);
   opacity: 0.5;
   text-align: right;
 }
@@ -104,7 +104,7 @@
 }
 .portfolio__card--stack-list .stack-item {
   border: 2px solid var(--text-color);
-  font-size: clamp(0.5rem, 5vw, 0.7rem);
+  font-size: clamp(0.5rem, 4vw, 1rem);
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   text-align: center;
   border-radius: 8px;

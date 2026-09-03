@@ -101,10 +101,10 @@
   flex-direction: row;
   gap: 0.5rem;
   flex-wrap: wrap;
-  font-size: clamp(0.25rem, 5vw, 0.7rem);
 }
 .portfolio__card--stack-list .stack-item {
   border: 2px solid var(--text-color);
+  font-size: clamp(0.5rem, 5vw, 0.7rem);
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   text-align: center;
   border-radius: 8px;

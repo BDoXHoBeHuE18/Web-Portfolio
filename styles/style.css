@@ -5,7 +5,7 @@
   --card-color: #0B1220;
   --text-color: #E7ECF5;
   --back-color: #141C30;
-  --card-list-gap: clamp(72px, 7vw, 288px);
+  --card-list-gap: clamp(5rem, 5vw, 18rem);
 }
 
 * {
@@ -29,13 +29,14 @@
   padding-top: 1rem;
 }
 .wrapper .portfolio__list {
-  padding-top: 2rem;
+  margin-top: 2rem;
   display: flex;
   justify-self: center;
   justify-content: center;
   flex-direction: column;
   gap: var(--card-list-gap);
   align-items: center;
+  margin-bottom: 5rem;
 }
 .wrapper .portfolio__list--card {
   position: relative;
@@ -67,12 +68,12 @@
   border-radius: inherit;
 }
 .wrapper .portfolio__list--card .portfolio__card--name {
-  font-size: clamp(0.5rem, 7vw, 2.5rem);
+  font-size: clamp(0.5rem, 5vw, 2.5rem);
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
 .wrapper .portfolio__list--card .portfolio__card--description {
-  font-size: clamp(0.5rem, 7vw, 1rem);
+  font-size: clamp(0.25rem, 5vw, 0.8rem);
   padding-bottom: 1rem;
   font-weight: lighter;
   opacity: 0.7;
@@ -84,7 +85,7 @@
   gap: 0.5rem;
 }
 .wrapper .portfolio__list--card .portfolio__card--category {
-  font-size: clamp(0.9rem, 3vw, 1rem);
+  font-size: clamp(0.5rem, 5vw, 1rem);
   opacity: 0.5;
   text-align: right;
 }
@@ -94,16 +95,13 @@
 .wrapper .portfolio__list--card > a:hover {
   opacity: 0.5;
 }
-.wrapper .portfolio__list > li:last-child {
-  padding-bottom: 5rem;
-}
 
 .portfolio__card--stack-list {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
-  padding-bottom: 1rem;
   flex-wrap: wrap;
+  font-size: clamp(0.25rem, 5vw, 0.7rem);
 }
 .portfolio__card--stack-list .stack-item {
   border: 2px solid var(--text-color);
@@ -112,7 +110,6 @@
   border-radius: 8px;
   color: #fff;
   border-color: #fff;
-  font-size: clamp(0.2rem, 3vw, 1rem);
   color: var(--back-color);
 }
 .portfolio__card--stack-list .html {
